@@ -1,0 +1,1 @@
+O arquivo jogoMultiPlayer.properties foi propositalmente removido desta pasta para que você tenha que gerar um específico para seu jogo (e não reusar aquele que é usado no programa de demonstração).
