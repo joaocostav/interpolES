@@ -1,0 +1,125 @@
+.button{
+     -fx-cursor: hand;
+     -fx-border-radius: 5;
+     -fx-background-radius: 5;
+     -fx-background-color: #68B0AB;
+     -fx-padding: 5 10;
+ }
+
+ .button:hover {
+    -fx-background-color: #8FC0A9;
+    -fx-translate-y: -2;
+ }
+
+ .button:pressed {
+    -fx-translate-y: 0;
+ }
+
+.root {
+    -fx-font-size: 20;
+    -fx-font-family: monospace;
+    -fx-background-color: #100007;
+}
+
+.page-title {
+    -fx-text-fill: #A68F99;
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+    -fx-padding: 25 0 0 0;
+}
+
+.btn-init {
+    -fx-font-size: 24;
+    -fx-padding: 15 30;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-color: #200116;
+    -fx-border-width: 2;
+    -fx-border-color: #A68F99;
+    -fx-text-fill: #A68F99;
+}
+
+/*===========    Welcome PAGE    ============*/
+
+.btn-init:hover {
+  -fx-background-color: #34182B;
+  -fx-translate-y: -3;
+  -fx-border-color: #200116;
+}
+.btn-init:pressed {
+ -fx-translate-y: -1;
+}
+
+.bottom-label {
+    -fx-padding: 0 0 15 25;
+    -fx-text-fill: #A68F99;
+}
+
+
+/*===========    Turn Page    ============*/
+
+
+.arrows-container {
+    -fx-padding: 0 0 25 0;
+}
+
+.page-title-turn {
+    -fx-padding: 25 0 20 45;
+}
+
+.left-container {
+    -fx-padding: 0 20;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #A68F99;
+    -fx-border-style: solid;
+}
+
+.left-container Label {
+    -fx-text-fill: #A68F99;
+}
+
+.btn-move {
+
+    -fx-background-color: #401C1B;
+    -fx-text-fill: #8BD7A4;
+    -fx-font-size: 32;
+    -fx-padding: 10 15;
+}
+
+.btn-move:hover {
+    -fx-background-color: #533332;
+}
+
+.btn-move-right:hover {
+    -fx-translate-x: 2;
+    -fx-translate-y: 0;
+}
+
+.btn-move-left:hover {
+    -fx-translate-x: -2;
+    -fx-translate-y: 0;
+}
+
+.btn-move-bottom:hover {
+    -fx-translate-y: 2;
+}
+
+.btn-move-top:pressed {
+    -fx-translate-y: -2;
+}
+
+/*===========    Tabuleiro    ============*/
+
+
+.board-cell {
+    -fx-padding: 3 8;
+    -fx-background-color: #482F40;
+    -fx-cursor: default;
+     -fx-border-radius: 0;
+     -fx-background-radius: 0;
+}
+
+.board-cell:hover {
+    -fx-background-color: #482F40;
+    -fx-translate-y: 0;
+}
